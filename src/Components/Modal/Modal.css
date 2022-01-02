@@ -1,0 +1,18 @@
+
+.modal {
+    left: 50%;
+    position: absolute;
+}
+
+.opened-modal {
+    color: blue;
+    font-size: 1.5rem;
+    border: 1px solid green;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
